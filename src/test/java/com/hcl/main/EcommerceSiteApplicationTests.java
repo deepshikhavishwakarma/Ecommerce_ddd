@@ -1,4 +1,4 @@
-package com.hcl;
+package com.hcl.main;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -6,7 +6,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import com.hcl.main.EcommerceSiteApplication;
 
 
-@SpringBootTest(classes = EcommerceSiteApplication.class)
+@SpringBootTest
 class EcommerceSiteApplicationTests {
 
     @Test
